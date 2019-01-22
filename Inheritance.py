@@ -50,7 +50,7 @@ class Jazz(Song):
         
         
 def main():
-    song1 = Song(style = 'Pop', name = 'The Rain Must Fall', composer = 'Yanni', duration = '7m26s', instruments = 'Piano-Vaiolin')
+    song1 = Song(style = 'Pop', name = 'The Rain Must Fall', composer = 'Yanni', duration = '7m26s', instruments = 'Piano-Violin')
     song2 = Jazz(name = 'Crave', composer = 'Jelly Roll Morton', duration = '3m45s', instruments = 'Piano')
     song3 = Jazz(name = 'My Funny Valentine', composer = 'Richard Rodgers', duration = '3m2s', instruments = 'Piano')
     print(song1)
